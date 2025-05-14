@@ -1,17 +1,17 @@
 package Modelo;
 public class Pelicula {
-    private int idPeli;
+    private int id_peli;
     private String titulo;
     private int duracion;
     private String clasificacion;
-    private java.sql.Date fEstreno;
+    private java.sql.Date f_estreno;
     private java.math.BigDecimal presupuesto; // Nuevo campo
     private java.math.BigDecimal recaudacion; // Nuevo campo
 	public int getIdPeli() {
-		return idPeli;
+		return id_peli;
 	}
 	public void setIdPeli(int idPeli) {
-		this.idPeli = idPeli;
+		this.id_peli = idPeli;
 	}
 	public String getTitulo() {
 		return titulo;
@@ -32,10 +32,10 @@ public class Pelicula {
 		this.clasificacion = clasificacion;
 	}
 	public java.sql.Date getfEstreno() {
-		return fEstreno;
+		return f_estreno;
 	}
 	public void setfEstreno(java.sql.Date fEstreno) {
-		this.fEstreno = fEstreno;
+		this.f_estreno = fEstreno;
 	}
 	public java.math.BigDecimal getPresupuesto() {
 		return presupuesto;
